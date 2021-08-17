@@ -4,6 +4,6 @@ def call(Map config = [:]) {
    // sh "./hello-world.sh ${config.name} ${config.dayOfWeek}"
     
     //for Windows OS
-      loadScript(name: 'hello-world.bat')
-      bat "./hello-world.bat ${config.name} ${config.dayOfWeek}"
+      loadScript(name: 'windows.bat')
+      bat "./windows.bat ${config.name} ${config.dayOfWeek}"
 }
