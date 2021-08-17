@@ -5,5 +5,5 @@ def call(Map config = [:]) {
     
     //for Windows OS
       loadScript(name: 'windows.bat')
-      bat "./windows.bat ${config.name} ${config.dayOfWeek}"
+      bat "./windows.bat"
 }
