@@ -1,4 +1,5 @@
-pipeline {
+def call() { 
+ pipeline {
     agent {
         docker {
             image 'maven:3.8.1-adoptopenjdk-11'
@@ -28,3 +29,6 @@ pipeline {
         }
     }
 }
+} 
+
+
