@@ -1,5 +1,5 @@
 def call() { 
-sh "Darek uruchamia testy"  
+sh "echo Darek uruchamia testy"  
 }
  
 
