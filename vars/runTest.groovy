@@ -1,5 +1,5 @@
 def call() { 
-sh 'mvn clean test'     
+sh "Darek uruchamia testy >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"  
 }
  
 
